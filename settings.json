@@ -1,0 +1,26 @@
+{
+  "icon_theme": "Material Icon Theme",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "theme": "Monochrome Zed (Retro Hard)",
+  "ui_font_size": 16,
+  "buffer_font_family": "Hack Nerd Font",
+  "buffer_font_size": 13,
+  "buffer_line_height": "comfortable",
+  "buffer_font_features": {
+    "liga": false,
+    "calt": false
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "scrollbar": {
+    "show": "auto"
+  }
+}
