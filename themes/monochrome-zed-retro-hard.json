@@ -28,6 +28,9 @@
         "text": "#e6e6e6",
         "text.muted": "#5a5a5a",
         "hint": "#5a5a5a",
+        "warning": "#ffcc00",
+        "warning.background": "#332800",
+        "error": "#ff5555",
         "element.active": "#1f2020",
         "element.selected": "#1f2020",
         "terminal.background": "#0e0f0f",
@@ -91,6 +94,18 @@
           },
           "emphasis.strong": {
             "font_weight": 800
+          },
+          "diagnostic.hint": {
+            "color": "#5a5a5a"
+          },
+          "diagnostic.warning": {
+            "color": "#000000",
+            "background": "#ffcc00",
+            "font_style": "normal"
+          },
+          "diagnostic.error": {
+            "color": "#ff5555",
+            "font_style": "underline"
           }
         }
       }

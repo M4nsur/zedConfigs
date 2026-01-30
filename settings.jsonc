@@ -1,7 +1,7 @@
 {
   "icon_theme": "Material Icon Theme",
   "session": {
-    "trust_all_worktrees": true
+    "trust_all_worktrees": true,
   },
   "theme": "Monochrome Zed (Retro Hard)",
   "ui_font_size": 16,
@@ -10,17 +10,31 @@
   "buffer_line_height": "comfortable",
   "buffer_font_features": {
     "liga": false,
-    "calt": false
+    "calt": false,
   },
   "git": {
     "inline_blame": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "tab_bar": {
-    "show": true
+    "show": true,
   },
   "scrollbar": {
-    "show": "auto"
-  }
+    "show": "auto",
+  },
+  "diagnostics": {
+    "hint": "info",
+    "warning": "hint",
+    "error": "error",
+  },
+  "languages": {
+    "Go": {
+      "gopls": {
+        "hints": {
+          "simplifyRange": false,
+        },
+      },
+    },
+  },
 }
